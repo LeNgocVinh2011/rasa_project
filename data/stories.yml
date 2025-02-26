@@ -1,0 +1,27 @@
+version: "3.1"
+
+stories:
+  - story: Greet and ask features
+    steps:
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_features
+      - action: utter_ask_features
+  - story: Ask price
+    steps:
+      - intent: ask_price
+      - action: utter_ask_price
+  - story: Goodbye
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+  - story: call API action
+    steps:
+      - intent: get_data_from_api
+      - action: action_call_api
+  - story: Active chat bot 2
+    steps:
+      - intent: bot_smenu
+      - action: action_route_bot
+
+

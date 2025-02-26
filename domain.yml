@@ -1,0 +1,32 @@
+version: "3.1"
+
+intents:
+  - greet
+  - ask_features
+  - ask_price
+  - goodbye
+  - get_data_from_api
+  - bot_smenu
+
+actions:
+  - action_route_bot
+  - action_call_api
+
+responses:
+  utter_greet:
+    - text: "Xin chào! Tôi có thể giúp gì cho bạn?"
+  utter_ask_features:
+    - text: "Smenubook là ứng dụng trải nghiệm ẩm thực du lịch, kết nối người dùng với các nhà hàng, cơ sở lưu trú và dịch vụ địa phương.\n \n
+             Smenubook - Cùng bạn chinh phục mọi hành trình!\n \n
+             Smenubook mang đến cho người dùng những trải nghiệm sau:\n \n
+             - Tìm kiếm, đánh giá, chia sẻ nhà hàng & địa điểm\n \n
+             - Đặt món ăn và đặt chỗ trực tuyến với thương hiệu"
+  utter_ask_price:
+    - text: "Chỉ với 500K là bạn đã có thể sử dụng dịch vụ của chúng tôi trọn đời với vô vàn tính năng hấp dẫn. Liên hệ với chúng tôi để được tư vấn: [0817 450 480](https://smenubook.com)"
+  utter_goodbye:
+    - text: "Cảm ơn bạn! Chúc bạn một ngày tốt lành!"
+  utter_iamabot:
+    - text: "Tôi là trợ lý AI của bạn - SMI AI."
+  utter_greet_bot_smenu:
+    - text: "Tôi là trợ lý ảo smenubook 2"
+    

@@ -1,0 +1,33 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - Chào bạn
+      - Xin chào
+      - Hello
+  - intent: ask_features
+    examples: |
+      - Smenubook của bạn làm được gì?
+      - Chức năng của phần mềm Smenubook là gì?
+      - Nó hỗ trợ quản lý gì?
+      - Ứng dụng Smenubook có chức năng gì?
+  - intent: ask_price
+    examples: |
+      - Giá phần mềm là bao nhiêu?
+      - Chi phí sử dụng POS thế nào?
+      - Tôi muốn biết giá.
+  - intent: goodbye
+    examples: |
+      - Tạm biệt
+      - Hẹn gặp lại
+      - Bye
+  - intent: get_data_from_api
+    examples: |
+      - API Smenubook
+      - Gọi API
+  - intent: bot_smenu
+    examples: |
+      - bot1
+      - bot2
+
